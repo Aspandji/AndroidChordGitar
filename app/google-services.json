@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "116634462558",
+    "firebase_url": "https://chordgitar-8a14c.firebaseio.com",
+    "project_id": "chordgitar-8a14c",
+    "storage_bucket": "chordgitar-8a14c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116634462558:android:2f9f0312ce8c0d72",
+        "android_client_info": {
+          "package_name": "pandji.com.chordgitar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116634462558-s03l7d7sf7vfr2cv64jiap81sr1bn3b8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pandji.com.chordgitar",
+            "certificate_hash": "e93d2568e5313c44b79f419d7a72a53cbb36323e"
+          }
+        },
+        {
+          "client_id": "116634462558-besromaatoqacuff669crpn6ob22ngqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJoA1DaDsPfjSNNpodeN1gWwxMFKwHixw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116634462558-besromaatoqacuff669crpn6ob22ngqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

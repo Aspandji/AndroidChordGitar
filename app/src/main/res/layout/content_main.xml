@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity2"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Pengertian Gitar"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gitar adalah sebuah alat musik berdawai yang dimainkan dengan cara dipetik, umumnya menggunakan jari maupun plektrum. Gitar terbentuk atas sebuah bagian tubuh pokok dengan bagian leher yang padat sebagai tempat senar yang umumnya berjumlah enam didempetkan. Gitar secara tradisional dibentuk dari berbagai jenis kayu dengan senar yang terbuat dari nilon maupun baja. Beberapa gitar modern dibuat dari material polikarbonat. Secara umum, gitar terbagi atas 2 jenis: akustik dan elektrik.
+
+Gitar akustik, dengan bagian badannya yang berlubang (hollow body), telah digunakan selama ribuan tahun. Terdapat tiga jenis utama gitar akustik modern: gitar akustik senar-nilon, gitar akustik senar-baja, dan gitar archtop. Gitar klasik umumnya dimainkan sebagai instrumen solo menggunakan teknik fingerpicking komprehensif.
+
+Gitar elektrik, diperkenalkan pada tahun 1930an, bergantung pada penguat yang secara elektronik mampu memanipulasi bunyi gitar. Pada permulaan penggunaannya, gitar elektrik menggunakan badan berlubang (hollow body), namun kemudian penggunaan badan padat (solid body) dirasa lebih sesuai. Gitar elektrik terkenal luas sebagai instrumen utama pada berbagai genre musik seperti blues, country, reggae, jazz, metal, rock, dan berbagai bentuk musik pop."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
